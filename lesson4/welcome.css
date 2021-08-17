@@ -1,0 +1,46 @@
+.welcome-page {
+    display: flex;
+    background-color: burlywood;
+    height: 90vh;
+    padding-top: 100px;
+    justify-content: center;
+    background-image: url("./image/slider-slide-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-content {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: whitesmoke; */
+    margin-top: -70px;
+}
+.welcome-title {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin-bottom: 20px;
+}
+.welcome-description {
+    color: #424242;
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.35;
+    margin-bottom: 20px;
+
+}
+.welcome-learnmore {
+    padding: 15px 25px;
+    margin: 0 5px;
+    background-color: #ffe500;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+
+}

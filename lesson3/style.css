@@ -14,7 +14,7 @@
     /* justify-content: center; */
  
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-direction: column;
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
