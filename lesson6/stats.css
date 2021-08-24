@@ -1,0 +1,32 @@
+.stats {
+    height: 58vh;
+    margin-bottom: 100px;
+    display: flex;
+    background-image: url("./image/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stats-content {
+    display: flex;
+    /* background-color: wheat; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.stats-ul {
+    list-style-type: none;
+    display: flex;
+    width: 90%;
+}
+.stats-li {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats-item {
+    /* height: 300px; */
+    padding: 30px 45px;
+    background-color: thistle;
+}
