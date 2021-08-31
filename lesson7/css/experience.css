@@ -1,0 +1,97 @@
+.experience {
+    /* width: 100%; */
+    background-color: white;
+    height: 58vh;
+    padding: 100px 0;
+    display: flex;
+}
+.experience-left {
+    background-color: #25293f;
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+}
+.experience-left img {
+    width: 100%;
+    height: 415px;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+
+.experience-left:hover img {
+    transform: scale(1.1);
+}
+.experience-right {
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.exp-right-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.exp-titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+.exp-titles h2 {
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: .09em;
+}
+.exp-titles p {
+    font-size: 20px;
+    color: #9b9b9b;
+}
+
+.exp-description {
+    color: #9b9b9b;
+    letter-spacing: .06em;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.exp-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp--btn {
+    /* text-decoration: none; */
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    padding: 17px 45px;
+
+}
+.exp-quote {
+    background-color: black;
+    color: white;
+}
+.exp-brochure {
+    background-color: #ffe500;
+    color: black;
+}
+.exp-quote:hover {
+    background-color: #ffe500;
+    color: black;
+    transition: 0.5s;
+}
+.exp-brochure:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
