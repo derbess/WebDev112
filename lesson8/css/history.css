@@ -1,0 +1,76 @@
+.history {
+    height: 90vh;
+    background-image: url("./image/parallax-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.history-content {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-content h3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: .07em;
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+}
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+}
+
+.item-flex {
+    display: flex;
+    flex-direction: column;
+}
+.item-flex::after {
+    content: "";
+    height: 6px;
+    width: 100%;
+    margin-top: 35px;
+    margin-left: -40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item::before {
+    content: "";
+    padding: 70px 8px;
+    margin-top: 10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.item-content {
+    display: flex;
+    flex-direction: row;
+}
+/* .item-content::before {
+    content: "";
+    background-color: white;
+    padding: 100px 10px;
+    margin-left: -40px;
+} */
+.item-desc {
+    width: 60%;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.item-title {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
