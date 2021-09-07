@@ -1,0 +1,57 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.projects-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 60px 20px 60px ;
+}
+.projects-top p {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.projects-top a {
+    text-decoration: none;
+    color: black;
+}
+.projects-grid {
+    padding-top: 50px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-item4 {
+    margin-left: 474px;
+    margin-top: -3px;
+}
+.project-item-apper {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-top: -50px;
+    display: none;
+
+}.project-item-apper p {
+    margin: 10px 0;
+    color: white;
+}
+
+.project-item:hover .project-item-apper{
+    display: flex;
+    animation: move-top 0.5s;
+}
+@keyframes move-top {
+    from {
+        transform: translateY(50px);
+    }
+    to {
+        transform: translateY(0px);
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+}

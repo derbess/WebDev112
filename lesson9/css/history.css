@@ -1,0 +1,128 @@
+.history {
+    height: 90vh;
+    background-image: url("./image/parallax-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.history-content {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 100px;
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.history-content h3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: .07em;
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+}
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    border-bottom: 6px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.item-flex {
+    display: flex;
+    flex-direction: column;
+}
+.item-flex::after {
+    content: "";
+    height:  30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 150px 0 0 -30px;
+    position: absolute;
+
+}
+
+
+.timeline-item::before {
+    content: "";
+    padding: 70px 8px;
+    margin-top: 10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.item-content {
+    display: flex;
+    flex-direction: row;
+}
+/* .item-content::before {
+    content: "";
+    background-color: white;
+    padding: 100px 10px;
+    margin-left: -40px;
+} */
+.item-desc {
+    width: 60%;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.item-title {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.second-item {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    border-top: 6px solid rgba(0, 0, 0, 0.2);
+    /* padding-top: 10px; */
+
+    margin: 10px;
+    position: relative;
+    top: 163px;
+    /* background-color: white; */
+
+}
+.second-item::before {
+    content: "";
+    padding: 70px 8px;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.item-title-second {
+    color: white;
+    font-size: 17px;
+    /* padding-bottom: 10px; */
+    margin-left: 5px;
+    margin-top: 30px;
+    
+}
+.item-content-second {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+.item-flex-second::after {
+    content: "";
+    height:  30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: -180px 0 0 -30px;
+    position: absolute; 
+
+}
