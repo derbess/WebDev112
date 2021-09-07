@@ -1,0 +1,99 @@
+.professionals {
+    height: 85vh;
+    background-image: url('./image/bg-image-3.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prof-content {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.prof-content-label {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prof-content-label p{
+    padding: 20px;
+    /* background: palevioletred; */
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.prof-content-label a{
+    padding: 20px;
+    /* background: palevioletred; */
+    color: white;
+    font-size: 17x;
+    font-weight: 600;
+
+    letter-spacing: .05em;
+}
+.prof-content-label a::after {
+    content: "\f14f";
+    position: relative;
+    top: -1px;
+    padding-left: 8px;
+    font-family: "Material Design Icons";
+    font-size: 1.31em;
+    vertical-align: middle;
+    color: #ffe500;
+}
+
+
+.prof-cards {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+.prof-item {
+    display: flex;
+    flex-direction: column;
+    padding: 90px ;
+    background-color: white;
+    align-items: center;
+}
+.prof-item::before{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    margin-bottom: -400px;
+    content: "";
+}
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #151515;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+
+
+}
+.name::before{
+    /* position: absolute; */
+    content: "";
+    width: 3px;
+    height: 30px;
+    margin-right: -50px;
+    transform: rotate(45deg);
+    background-color: yellow;
+    margin-top: -10px;
+    
+    margin-left: 40px;
+}
+.position {
+    color: #b7b7b7;
+}
+.mail {
+    display: none;
+    color: #ffe500;
+}
