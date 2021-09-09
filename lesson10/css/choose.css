@@ -1,0 +1,36 @@
+.choose {
+    height: 65vh;
+    display: flex;
+
+}
+.choose-content {
+    width: 40%;
+    margin: 100px 80px 0px 80px;
+
+}
+.choose-content h3{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: .05em;
+
+}
+.choose-content p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #9b9b9b;
+    margin-bottom: 40px;
+
+}
+.choose-btn {
+    padding: 10px 40px;
+    font-size: 17px;
+    border: black 2px solid;
+    color: black;
+}
+
+.choose-btn:hover {
+    background-color: yellow;
+    border: yellow 2px solid;
+    transition: 0.2s;
+}

@@ -1,0 +1,19 @@
+footer {
+    background-color: #151515;
+    
+}
+.dark {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.dark-content{
+    display: flex;
+    padding: 5px 60px;
+
+}
+
+.dark-content p {
+    color: white;
+}

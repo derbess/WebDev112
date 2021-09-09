@@ -1,0 +1,153 @@
+.professionals {
+    height: 85vh;
+    background-image: url('./image/bg-image-3.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prof-content {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.prof-content-label {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prof-content-label p{
+    padding: 20px;
+    /* background: palevioletred; */
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.prof-content-label a{
+    padding: 20px;
+    /* background: palevioletred; */
+    color: white;
+    font-size: 17x;
+    font-weight: 600;
+
+    letter-spacing: .05em;
+}
+.prof-content-label a::after {
+    content: "\f14f";
+    position: relative;
+    top: -1px;
+    padding-left: 8px;
+    font-family: "Material Design Icons";
+    font-size: 1.31em;
+    vertical-align: middle;
+    color: #ffe500;
+}
+
+
+.prof-cards {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+.prof-item {
+    display: flex;
+    /* padding: 90px; */
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.avatar {
+    margin-top: 70px;
+}
+.prof-item-border {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: 325px;
+    background-color: white;
+    align-items: center;
+    /* background-color: blueviolet; */
+    border: solid 2px #f5f5f5;
+}
+
+.name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #151515;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+
+}
+.name::before{
+    /* position: absolute; */
+    content: "";
+    width: 3px;
+    height: 30px;
+    /* margin-right: -50px; */
+    transform: rotate(45deg);
+    background-color: yellow;
+    margin-top: -10px;
+    
+    margin-left: 40px;
+}
+.position {
+    color: #b7b7b7;
+}
+.mail {
+    display: none;
+    color: #ffe500;
+    /* opacity: 0; */
+    /* transition: 0.5s; */
+}
+
+.prof-item:hover .mail{
+    display: flex;
+    animation: appear_mail 0.5s;
+}
+.prof-item:hover .name::before {
+    width: 40px;
+    height: 3px;
+    transform: rotate(0);
+    margin-right: 40px;
+
+    animation: rotateAfter 0.5s;
+
+}
+.prof-item:hover .prof-item-border{
+    border: solid 2px yellow;
+    transition: 0.5s;
+}
+@keyframes rotateAfter{
+    0% {
+        transform: rotate(45deg);
+        height: 30px;
+        width: 3px;
+    }
+    50% {
+        transform: rotate(0);
+        height: 3px;
+        width: 3px;
+    }
+    
+
+}
+
+@keyframes appear_mail {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
